@@ -1,0 +1,3 @@
+displayName = Phasesabers Expanded
+author = Kaii
+version = 0.1

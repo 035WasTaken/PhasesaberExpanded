@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OkECndy1MewR8nIC2po4tBEwvpkOW3MeJgg3ivcukbbl+p4PMpUHngu8ZnfzuuTJZpVWyYTyOWVg77jcQ2mz7Q==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\lenur\\Documents\\My Games\\Terraria\\tModLoader\\ModSources\\PhasesaberExpanded\\PhasesaberExpanded.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lenur\\.nuget\\packages\\tmodloader.codeassist\\0.1.5\\tmodloader.codeassist.0.1.5.nupkg.sha512"
+  ],
+  "logs": []
+}
