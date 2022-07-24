@@ -8,6 +8,7 @@ using PhasesaberExpanded.Projectiles;
 
 namespace PhasesaberExpanded.Common.GlobalItems {
     public class NewPhasesaber : GlobalItem {
+
         // set which items this class applies to
         // pattern matching ...
         public override bool AppliesToEntity(Item entity, bool lateInstantiation) => entity.type switch
@@ -32,6 +33,10 @@ namespace PhasesaberExpanded.Common.GlobalItems {
                     ItemID.BluePhasesaber => ModContent.ProjectileType<BluePhasesaber>(),
                     _ => ProjectileID.EnchantedBoomerang
                 };
+                
+                item.shootSpeed = 10f;
+            } else {
+                item.shoot = ProjectileID.None;
             }
 
             return true;

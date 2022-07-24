@@ -3,4 +3,4 @@ Allows you to right-click when using a Phasesaber to throw it.
 TBD:
 
 Adds a new Phasesaber called the "Lifesaber" that requires life fruits and a phasesaber to craft.
-This new saber can be thrown further, does more damage, and does not collide with blocks.
+This new saber can be thrown further, does more damage, and spreads damaging sparks on collision.
