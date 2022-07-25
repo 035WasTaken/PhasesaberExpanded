@@ -5,7 +5,7 @@ using Terraria.ModLoader;
 
 namespace PhasesaberExpanded.Projectiles
 {
-    public class BluePhasesaber : ModProjectile
+    public class GreenPhasesaber : ModProjectile
     {
         public override void SetDefaults()
         {
@@ -14,7 +14,7 @@ namespace PhasesaberExpanded.Projectiles
         }
 
         public override void PostAI() {
-            Lighting.AddLight(Projectile.VisualPosition, new Vector3(0f, 0f, 1f));
+            Lighting.AddLight(Projectile.VisualPosition, new Vector3(0f, 1f, 0f));
         }
     }
 }

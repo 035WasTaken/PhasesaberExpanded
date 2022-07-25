@@ -29,15 +29,21 @@ namespace PhasesaberExpanded.Common.GlobalItems {
         public override bool CanUseItem(Item item, Player player)
         {
             if(player.altFunctionUse == 2) {
+                item.useStyle = ItemUseStyleID.None;
                 item.shoot = item.type switch {
                     ItemID.BluePhasesaber => ModContent.ProjectileType<BluePhasesaber>(),
+                    ItemID.GreenPhasesaber => ModContent.ProjectileType<GreenPhasesaber>(),
+                    ItemID.RedPhasesaber => ModContent.ProjectileType<RedPhasesaber>(),
                     _ => ProjectileID.EnchantedBoomerang
                 };
                 
                 item.shootSpeed = 10f;
+                
             } else {
                 item.shoot = ProjectileID.None;
             }
+
+            item.useStyle = ItemUseStyleID.Swing;
 
             return true;
         }
